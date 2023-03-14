@@ -6,8 +6,8 @@
 }
 
 body {
-    width: 100vw;
-    height: 100%;
+    width: 93vw;
+    height: 50vh;
     background-color: black;
     color: rgba(255, 255, 255, 0.664);
     justify-content: center;
@@ -28,8 +28,7 @@ section {
 .relogio {
     display: flex;
     justify-content: space-around;
-    width: 90vw;
-    height: 200px;
+    width: 100vw;
     text-align: center;
     align-items: center;
     margin-left: 5vw;
@@ -45,135 +44,15 @@ section {
 }
 
 .space {
-    margin-left: 5vw;
     font-size: 200pt;
 }
 
-@media (max-width: 999px) {
-    body {
-        width: 100vw;
-    }    
-
-    .relogio {
-        width: 800px;
-        height: 200px;
-    }
-
+@media (max-width: 500px) {
     .horas {
-        font-size: 200pt;
+        font-size: 50pt;
     }
-
+    
     .minutos {
-        font-size: 200pt;
-    }
-}
-
-@media (max-width: 797px) {
-    body {
-        width: 100vw;
-    }
-
-    .relogio {
-        width: 650px;
-        height: 200px;
-    }
-
-    .horas {
-        font-size: 200pt;
-    }
-    .minutos {
-        font-size: 200pt;
-    }
-}
-
-@media (max-width: 649px) {
-    body {
-        width: 100vw;
-    }
-
-    .relogio {
-        width: 450px;
-        height: 200px;
-    }
-
-    .horas {
-        font-size: 150pt;
-    }
-    .minutos {
-        font-size: 150pt;
-    }
-    .space {
-        margin-top: -6vh;
-    }
-}
-
-@media (max-width: 540px) {
-    body {
-        width: 99vw;
-    }
-
-    .relogio {
-        width: 400px;
-        height: 200px;
-    }
-
-    .horas {
-        font-size: 120pt;
-    }
-    .minutos {
-        font-size: 120pt;
-    }
-    .space {
-        margin-left: 1vw;
-        margin-top: -6vh;
-        font-size: 100pt;
-    }
-}
-
-@media (max-width: 410px) {
-    body {
-        width: 90vw;
-    }
-
-    .relogio {
-        width: 400px;
-        height: 200px;
-        margin-left: 10vw;
-    }
-
-    .horas {
-        font-size: 110pt;
-    }
-    .minutos {
-        font-size: 110pt;
-    }
-    .space {
-        margin-left: 1vw;
-        margin-top: -6vh;
-        font-size: 100pt;
-    }
-}
-
-@media (max-width: 362px) {
-    body {
-        width: 100vw;
-    }
-
-    .relogio {
-        width: 350px;
-        height: 200px;
-        margin-left: -2vw;
-    }
-
-    .horas {
-        font-size: 100pt;
-    }
-    .minutos {
-        font-size: 100pt;
-    }
-    .space {
-        margin-left: 1vw;
-        margin-top: -4vh;
-        font-size: 90pt;
+        font-size: 50pt;
     }
 }
