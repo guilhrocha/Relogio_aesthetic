@@ -22,7 +22,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 30vh;
 }
 
 .relogio {
@@ -37,90 +37,26 @@ section {
 
 .horas {
     font-size: 250pt;
-    margin-left: 20%;
 }
 
 .minutos {
     font-size: 250pt;
-    margin-right: 20%;
 }
 
 .space {
     font-size: 200pt;
 }
 
-@media (max-width: 800px) {
-    .horas {
-        font-size: 200pt;
-    }
-    
-    .minutos {
-        font-size: 200pt;
-        margin-left: 3%;
-    }
-
-    .space {
-        font-size: 150pt;
-    }
-}
-
-@media (max-width: 670px) {
-
-    .relogio {
-        margin-left: 7%;
-    }
-    .horas {
-        font-size: 190pt;
-    }
-    
-    .minutos {
-        font-size: 190pt;
-        margin-left: 3%;
-    }
-
-    .space {
-        font-size: 140pt;
-    }
-}
-
-@media (max-width: 635px) {
-    body {
-        width: 93vw;
-    }
-}
-
-@media (max-width: 600px) {
-
-    body {
-        width: 89vw;
-    }
-
-    .relogio {
-        margin-left: 12%;
-    }
-    .horas {
-        font-size: 180pt;
-    }
-    
-    .minutos {
-        font-size: 180pt;
-    }
-
-    .space {
-        font-size: 95pt;
-    }
-}
-
 @media (max-width: 500px) {
     .horas {
-        font-size: 150pt;
+        font-size: 70pt;
     }
     
     .minutos {
-        font-size: 150pt;
+        font-size: 70pt;
     }
 
     .space {
-        font-size: 80pt;
+        font-size: 50pt;
     }
 }
