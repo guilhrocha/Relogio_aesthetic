@@ -44,19 +44,5 @@ section {
 }
 
 .space {
-    font-size: 200pt;
-}
-
-@media (max-width: 500px) {
-    .horas {
-        font-size: 70pt;
-    }
-    
-    .minutos {
-        font-size: 70pt;
-    }
-
-    .space {
-        font-size: 50pt;
-    }
+    font-size: 150pt;
 }
