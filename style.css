@@ -36,13 +36,29 @@ section {
 
 
 .horas {
-    font-size: 250pt;
+    font-size: 200pt;
+    margin-left: 20%;
 }
 
 .minutos {
-    font-size: 250pt;
+    font-size: 200pt;
+    margin-right: 20%;
 }
 
 .space {
-    font-size: 150pt;
+    font-size: 90pt;
+}
+
+@media (max-width: 500px) {
+    .horas {
+        font-size: 120pt;
+    }
+    
+    .minutos {
+        font-size: 120pt;
+    }
+
+    .space {
+        font-size: 80pt;
+    }
 }
