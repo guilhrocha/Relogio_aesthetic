@@ -36,11 +36,13 @@ section {
 
 
 .horas {
+    filter: blur(0);
     font-size: 200pt;
     margin-left: 20%;
 }
 
 .minutos {
+    filter: blur(0);
     font-size: 200pt;
     margin-right: 20%;
 }
